@@ -1,0 +1,8 @@
+sounddevice
+numpy
+scipy
+openwakeword
+onnxruntime
+faster-whisper
+cryptography
+openclaw-sdk

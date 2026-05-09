@@ -1,0 +1,22 @@
+{
+    "text_model": "github-copilot/gpt-4.1",
+    "voice_model": "piper/en_GB-semaine-medium.onnx",
+    "input_device_name": "",
+    "arecord_input_device": "default",
+    "output_device_name": "default",
+    "chat_memory": true,
+    "system_prompt_extras": "",
+    "openclaw_agent_id": "main",
+    "openclaw_session_name": "main-session",
+    "prompt_memory_messages": 6,
+    "whisper_threads": 4,
+    "recording_start_delay": 0.2,
+    "recording_silence_duration": 0.8,
+    "recording_max_time": 20.0,
+    "recording_chunk_duration": 0.05,
+    "llm_num_thread": 4,
+    "llm_temperature": 0.6,
+    "llm_top_k": 40,
+    "llm_top_p": 0.9,
+    "llm_num_predict": 128
+}
