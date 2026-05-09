@@ -1,4 +1,4 @@
-# Be More Agent 🤖
+# Be More Agent 
 **A Customizable, Offline-First AI Agent for Raspberry Pi**
 
 [![Watch the Demo](https://img.youtube.com/vi/l5ggH-YhuAw/maxresdefault.jpg)](https://youtu.be/l5ggH-YhuAw)
@@ -9,7 +9,7 @@ This project turns a Raspberry Pi into a fully functional, conversational AI age
 
 **It is designed as a blank canvas:** You can easily swap sound effects and tune behavior to create your own character.
 
-## ✨ Features
+## Features
 
 * **OpenClaw-Powered Intelligence**: Uses **OpenClaw SDK** for model calls and **Whisper.cpp** for Speech-to-Text.
 * **Open Source Wake Word**: Wakes up to your custom model using **OpenWakeWord** (Offline & Free). No access keys required.
@@ -25,7 +25,7 @@ This project turns a Raspberry Pi into a fully functional, conversational AI age
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 be-more-agent/
@@ -46,7 +46,7 @@ be-more-agent/
 
 ---
 
-## 🚀 Installation
+## Installation
 
 ### 1. Prerequisites
 Ensure your Raspberry Pi OS is up to date.
@@ -85,7 +85,7 @@ python agent.py
 
 ---
 
-## 📂 Configuration (`config.json`)
+## Configuration (`config.json`)
 
 You can modify the hardware behavior and personality in `config.json`. The `agent.py` script creates this on the first run if it doesn't exist, but you can create it manually:
 
@@ -101,7 +101,7 @@ You can modify the hardware behavior and personality in `config.json`. The `agen
 
 ---
 
-## 🎨 Customizing Your Character
+##  Customizing Your Character
 
 This software is a generic framework. You can give it a new personality by replacing the assets:
 
@@ -110,7 +110,7 @@ This software is a generic framework. You can give it a new personality by repla
 
 ---
 
-## ⚠️ Troubleshooting
+## Troubleshooting
 
 * **"No search library found":** If web search fails, ensure you are in the virtual environment and `duckduckgo-search` is installed via pip.
 * **Shutdown Errors:** When you exit the script (Ctrl+C), you might see `Expression 'alsa_snd_pcm_mmap_begin' failed`. **This is normal.** It just means the audio stream was cut off mid-sample. It does not affect the functionality.
@@ -119,7 +119,7 @@ This software is a generic framework. You can give it a new personality by repla
 ## 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## ⚖️ Legal Disclaimer
+##  Legal Disclaimer
 **"BMO"** and **"Adventure Time"** are trademarks of **Cartoon Network** (Warner Bros. Discovery).
 
 This project is a **fan creation** built for educational and hobbyist purposes only. It is **not** affiliated with, endorsed by, or connected to Cartoon Network or the official Adventure Time brand in any way. The software provided here is a generic agent framework; users are responsible for the assets they load into it.
